@@ -52,4 +52,28 @@ const myFunction = function(){
 
 console.log(myObj);
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3
+let userOne = {
+    email: "userOne@google.com",
+    pass: "1234"
+}
+
+let userTwo = userOne;
+
+console.log(userOne);
+console.log(userTwo);
+
+userTwo.email = "user@google.com";
+
+console.log(userOne);
+console.log(userTwo);
+//for non-primitive it gives reference so if data of reference has been changed by any one the whole data is changed
+
+
+
+
+
+
+
+
+
+/* https://262.ecma-international.org/5.1/#sec-11.4.3*/
