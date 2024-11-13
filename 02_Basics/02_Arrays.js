@@ -19,7 +19,7 @@ const dc = ["Superman", "Batman", "Aquaman"];
 
 // console.log(Array.isArray("Yash"));
 // console.log(Array.from("Yash"));
-console.log(Array.of("Yash",1,2,3,4));
+console.log(Array.of("Yash",1,2,3,4))
 // console.log(Array.from({name: "yash"})); //we have to define what you want key or value
 
 

@@ -30,7 +30,7 @@ console.log("A ", arr);
 
 const arr3 = arr.slice(1,3)
 console.log(arr3);
-console.log("B ", arr);
+console.log("B ", arr)
 
 
 const arr4 = arr.splice(1,3)  //difference between slice and splice is splice does inlcude end index, while slice does not
