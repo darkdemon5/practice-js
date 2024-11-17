@@ -64,5 +64,21 @@ const arr = [
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// console.log(course.courseInstructor);
+
+//This is called object destructring
+const {courseInstructor: instructor} = course;
+
+console.log(instructor);
+
+
 
