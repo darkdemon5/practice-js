@@ -5,7 +5,7 @@ console.log(typeof id);
 //what if you are receiving a value from frontend or from user
 //lets convert it
 
-let valueIsNumber = Number(id);//like this you can convert it to any datatype just type firstletter as capital and round paranthesis
+let valueIsNumber = Number(id); //like this you can convert it to any datatype just type firstletter as capital and round paranthesis
 
 console.log(typeof valueIsNumber);
 
@@ -64,10 +64,8 @@ console.log(id);
 console.log(valueIsNumber2);
 //for true it gives 1 as output and for false it gives 0
 
-
 let isLoggedIn = "";
 let booleanLoggedIn = Boolean(isLoggedIn);
 
 console.log(booleanLoggedIn);
 //In this if number 0 then false anything other is true, if string is empty the it is false, if it contains something it is true
-

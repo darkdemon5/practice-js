@@ -1,13 +1,11 @@
-
 // const temp = 50
 // if( temp < 50){
 //     console.log("Temp less than 50");
 // }
 // else{
 //     console.log("Temp is more than 50");
-    
-// }
 
+// }
 
 // const bal = 1000
 
@@ -35,16 +33,15 @@
 // const loggedInFromEmail = true
 
 // if (loggedInFromEmail || loggedInFromGoogle) {
-//     console.log("Allwoed to shop");    
+//     console.log("Allwoed to shop");
 // }
 
-
-//Nullish Coalescing Operator (??): null undefined 
+//Nullish Coalescing Operator (??): null undefined
 
 //it chooses between left or right
-// var = null ?? 10 ans is 10 
+// var = null ?? 10 ans is 10
 //var = 5 ?? 10 ans is 5
-//var = undefined ?? 10 and is 10 
+//var = undefined ?? 10 and is 10
 //var = null ?? 5 ?? 10 ans is 5
 //var = null ?? undefined ans is undefined
 //var = undefined ?? null ans is null

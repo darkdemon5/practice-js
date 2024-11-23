@@ -14,6 +14,5 @@
 
 //object
 
-console.log( typeof undefined); // type of undefined is undefined
-console.log( typeof null); //type of null is object
-
+console.log(typeof undefined); // type of undefined is undefined
+console.log(typeof null); //type of null is object

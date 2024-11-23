@@ -1,6 +1,5 @@
 // ********************** Operations ********************
 
-
 let value = 3;
 let negValue = -value;
 
@@ -18,20 +17,15 @@ let str2 = " Yash";
 
 // console.log(str1+str2);
 
-console.log( 1 + 2);
-console.log( "1" + 2);
-console.log( 1 + "2");
-console.log( "1" + "2");
-console.log( "1" + 5 + 3);
-console.log( 1 + "5" + 3);
-console.log( 1 + 5 + "3");
-console.log( +true); //allowed
+console.log(1 + 2);
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 5 + 3);
+console.log(1 + "5" + 3);
+console.log(1 + 5 + "3");
+console.log(+true); //allowed
 // console.log( true+); //Notallowed
 console.log(+false); //allowed
 console.log(+""); //allowed
 console.log(+"sdf"); //allowed
-
-
-
-
-
