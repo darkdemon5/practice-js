@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom manipulation</title>
+  </head>
+  <body style="background-color: #212121; color: #fff">
+    <ul class="lang">
+      <li>Javascript</li>
+    </ul>
+  </body>
+  <script>
+    const langArray = ["Java", "Python", "Ruby", "ReactJs", "Angular"];
+
+    langArray.map((i) => addLang(i));
+
+    //forof for the value
+    // for (const ele of langArray) {
+    //   addLang(ele);
+    // }
+
+    //Forin for index
+    // for (const a in langArray) {
+    //   addLang(a);
+    // }
+
+    function addLang(params) {
+      // const list1 = document.createElement("li");
+      //   list1.innerText = params;
+      //   addList.appendChild(list1);
+
+      const list1 = document.createElement("li");
+      list1.appendChild(document.createTextNode(params));
+      const addList = document.querySelector(".lang").appendChild(list1);
+    }
+
+    //Edit or Upload
+    document
+      .querySelector("li:nth-child(2)")
+      .replaceChildren(document.createTextNode("JoJo"));
+    //   .replaceWith(document.createTextNode("JoJo")); This works only adds text not list. It need to create separate
+    // list elemnt to add into it
+
+    //   .replaceWith(document.createElement("li").createTextNode("JoJo")); Does Not work.
+    //   .replaceChildren(document.createTextNode("JoJo")); Works Best
+    //   .appendChild(document.createTextNode("JoJo")); // it merges with previous one eg java becames javajojo
+
+    //Remove
+    document.querySelector("li:nth-child(4)").remove();
+  </script>
+</html>
